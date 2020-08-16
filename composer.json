@@ -1,0 +1,26 @@
+{
+    "name": "mbozwood/laravel-explicit",
+    "description": "Laravel Explicit Words validation rule",
+    "authors": [
+        {
+            "name": "Matt Bozwood-Davies"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.3",
+        "illuminate/validation": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MBozwood\\LaravelExplicitFilter\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MBozwood\\LaravelExplicitFilter\\BadWordServiceProvider"
+            ]
+        }
+    }
+}
