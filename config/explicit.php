@@ -102,6 +102,7 @@ return [
         'ball licking',
         'ball sack',
         'ball sucking',
+        'ball fucking',
         'ballbag',
         'balls',
         'ballsack',
